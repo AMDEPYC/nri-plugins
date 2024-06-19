@@ -22,7 +22,7 @@ See the [NRI plugins documentation](https://containers.github.io/nri-plugins/) f
 
 ## Install Topology-Aware Policy with Last Level Cache (LLC) Affinity ##
 
-** Prerequisites**
+**Prerequisites**
 Developer Environment:
 *	Go1.22+
 *	Docker v26.1.3
@@ -33,8 +33,8 @@ Orchestration Worker Node:
 Orchestration Control-Plane:
 *	Helm v3.0+
 
-** Installation **
-* * Developer Environment * *
+**Installation**
+*Developer Environment*
 On the developer node, clone the NRI-Plugin repository:
 ```
 git clone https://github.com/AMDEPYC/nri-plugins.git
@@ -71,7 +71,7 @@ docker push <Registry-Host>/config-manager:unstable
 docker push <Registry-Host>/nri-resource-policy-topology-aware:unstable
 ```
 
-* * Control-Plane * *
+*Control-Plane*
 On the control-plane, create a values.yaml to populate the helm chart:
 ```
 initContainerImage:
@@ -96,7 +96,7 @@ Verify the NRI Topology Aware Policy is running in the kube-system namespace:
 kubectl get pods -n kube-system
 ```
 
-Any Guaranteed Pod will now automatically be deployed using the NRI Topology-Aware Policy with LLC affinity.
+Any Guaranteed Pod will now automatically be deployed using the NRI Topology-Aware Policy with LLC affinity on the worker-node.
 
 To uninstall the NRI Topology-Aware Policy:
 ```
