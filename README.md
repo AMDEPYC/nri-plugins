@@ -18,8 +18,6 @@ Currently following plugins are available:
 [4]: https://containers.github.io/nri-plugins/stable/docs/memory/memory-qos.html
 [5]: https://containers.github.io/nri-plugins/stable/docs/memory/sgx-epc.html
 
-See the [NRI plugins documentation](https://containers.github.io/nri-plugins/) for more information.
-
 ## Install Topology-Aware Policy with Last Level Cache (LLC) Affinity ##
 
 **Prerequisites**
@@ -133,3 +131,6 @@ Run the following command to view the debug logs of the NRI Topology Aware Polic
 ```
 kubectl logs -n kube-system <nri-resource-policy-topology-aware-xxxxx>
 ```
+
+
+See the [NRI plugins documentation](https://containers.github.io/nri-plugins/) for more information.
