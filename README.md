@@ -20,14 +20,14 @@ Currently following plugins are available:
 
 ## Install Topology-Aware Policy with Last Level Cache (LLC) Affinity ##
 
-**Prerequisites**
+**Prerequisites**\
 Developer Environment:
 *	Go1.22+
 *	Docker v26.1.3
 *	make\
 Orchestration Worker Node:
 *	CRI-O 1.26+ (OpenShift 4.13+)
-*	ContainerD 1.7+ (Kubernetes 1.24+)
+*	ContainerD 1.7+ (Kubernetes 1.24+)\
 Orchestration Control-Plane:
 *	Helm v3.0+
 
