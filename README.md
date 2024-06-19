@@ -14,7 +14,7 @@
     *	Helm v3.0+
 
 **Installation**\
-*Developer Environment*
+*Developer Environment*\
 On the developer node, clone the NRI-Plugin repository:
 ```
 git clone https://github.com/AMDEPYC/nri-plugins.git
@@ -51,7 +51,7 @@ docker push <Registry-Host>/config-manager:unstable
 docker push <Registry-Host>/nri-resource-policy-topology-aware:unstable
 ```
 
-*Control-Plane*
+*Control-Plane*\
 On the control-plane, create a values.yaml to populate the helm chart:
 ```
 initContainerImage:
@@ -113,6 +113,7 @@ Run the following command to view the debug logs of the NRI Topology Aware Polic
 ```
 kubectl logs -n kube-system <nri-resource-policy-topology-aware-xxxxx>
 ```
+# NRI Plugins
 
 This repository also contains a collection of community maintained NRI plugins.
 
