@@ -24,14 +24,14 @@ See the [NRI plugins documentation](https://containers.github.io/nri-plugins/) f
 
 ** Prerequisites**
 Developer Environment:
-•	Go1.22+
-•	Docker v26.1.3
-•	make
+*	Go1.22+
+*	Docker v26.1.3
+*	make
 Orchestration Worker Node:
-•	CRI-O 1.26+ (OpenShift 4.13+)
-•	ContainerD 1.7+ (Kubernetes 1.24+)
+*	CRI-O 1.26+ (OpenShift 4.13+)
+*	ContainerD 1.7+ (Kubernetes 1.24+)
 Orchestration Control-Plane:
-•	Helm v3.0+
+*	Helm v3.0+
 
 ** Installation **
 * * Developer Environment * *
