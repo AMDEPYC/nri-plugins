@@ -24,7 +24,7 @@ Currently following plugins are available:
 Developer Environment:
 *	Go1.22+
 *	Docker v26.1.3
-*	make
+*	make\
 Orchestration Worker Node:
 *	CRI-O 1.26+ (OpenShift 4.13+)
 *	ContainerD 1.7+ (Kubernetes 1.24+)
