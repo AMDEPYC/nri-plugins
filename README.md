@@ -13,7 +13,7 @@
 * Orchestration Control-Plane:
     *	Helm v3.0+
 
-**Installation**
+**Installation**\
 *Developer Environment*
 On the developer node, clone the NRI-Plugin repository:
 ```
