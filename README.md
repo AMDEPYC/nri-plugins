@@ -1,23 +1,5 @@
 # NRI Plugins
 
-This repository contains a collection of community maintained NRI plugins.
-
-Currently following plugins are available:
-
-| Name                | Type              |
-|---------------------|:-----------------:|
-| [Topology Aware][1] | resource policy   |
-| [Balloons][2]       | resource policy   |
-| [Memtierd][3]       | memory management |
-| [Memory-qos][4]     | memory management |
-| [SGX-EPC][5]        | memory management |
-
-[1]: https://containers.github.io/nri-plugins/stable/docs/resource-policy/policy/topology-aware.html
-[2]: https://containers.github.io/nri-plugins/stable/docs/resource-policy/policy/balloons.html
-[3]: https://containers.github.io/nri-plugins/stable/docs/memory/memtierd.html
-[4]: https://containers.github.io/nri-plugins/stable/docs/memory/memory-qos.html
-[5]: https://containers.github.io/nri-plugins/stable/docs/memory/sgx-epc.html
-
 ## Install Topology-Aware Policy with Last Level Cache (LLC) Affinity ##
 
 **Prerequisites**
@@ -27,7 +9,7 @@ Currently following plugins are available:
     *	make
 * Orchestration Worker Node:
     *	CRI-O 1.26+ (OpenShift 4.13+)
-    *	ContainerD 1.7+ (Kubernetes 1.24+)\
+    *	ContainerD 1.7+ (Kubernetes 1.24+)
 * Orchestration Control-Plane:
     *	Helm v3.0+
 
@@ -132,5 +114,22 @@ Run the following command to view the debug logs of the NRI Topology Aware Polic
 kubectl logs -n kube-system <nri-resource-policy-topology-aware-xxxxx>
 ```
 
+This repository also contains a collection of community maintained NRI plugins.
+
+Currently following plugins are available:
+
+| Name                | Type              |
+|---------------------|:-----------------:|
+| [Topology Aware][1] | resource policy   |
+| [Balloons][2]       | resource policy   |
+| [Memtierd][3]       | memory management |
+| [Memory-qos][4]     | memory management |
+| [SGX-EPC][5]        | memory management |
+
+[1]: https://containers.github.io/nri-plugins/stable/docs/resource-policy/policy/topology-aware.html
+[2]: https://containers.github.io/nri-plugins/stable/docs/resource-policy/policy/balloons.html
+[3]: https://containers.github.io/nri-plugins/stable/docs/memory/memtierd.html
+[4]: https://containers.github.io/nri-plugins/stable/docs/memory/memory-qos.html
+[5]: https://containers.github.io/nri-plugins/stable/docs/memory/sgx-epc.html
 
 See the [NRI plugins documentation](https://containers.github.io/nri-plugins/) for more information.
