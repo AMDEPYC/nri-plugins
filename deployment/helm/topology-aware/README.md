@@ -1,5 +1,7 @@
 # Topology-Aware Policy Plugin
 
+## See https://github.com/AMDEPYC/nri-plugins/blob/main/README.md for installation instructions of Topology-Aware Policy with LLC Affinity
+
 This chart deploys topology-aware Node Resource Interface (NRI) plugin.
 Topology-aware NRI resource policy plugin is a NRI plugin that will apply
 hardware-aware resource allocation policies to the containers running in the
