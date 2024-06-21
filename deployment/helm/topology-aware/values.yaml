@@ -39,7 +39,7 @@ nri:
   plugin:
     index: 90
   runtime:
-    patchConfig: false
+    patchConfig: true
    config:
      pluginRegistrationTimeout: 5s
      pluginRequestTimeout: 4s
