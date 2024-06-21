@@ -40,9 +40,9 @@ nri:
     index: 90
   runtime:
     patchConfig: true
-   config:
-     pluginRegistrationTimeout: 5s
-     pluginRequestTimeout: 4s
+    config:
+      pluginRegistrationTimeout: 5s
+      pluginRequestTimeout: 4s
 
 initContainerImage:
   name: ghcr.io/AMDEPYC/nri-plugins/nri-config-manager
