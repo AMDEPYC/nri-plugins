@@ -68,7 +68,7 @@ Ensure the image names point to your repository.
 
 Install the NRI Topology-Aware Policy with LLC affinity:
 ```
-helm install -n kube-system llc -f values.yaml deployments/helm/topology-aware --set nri.patchRuntimeConfig=true
+helm install -n kube-system llc -f values.yaml deployment/helm/topology-aware
 ```
 
 Verify the NRI Topology Aware Policy is running in the kube-system namespace:
