@@ -116,7 +116,7 @@ kubectl logs -n kube-system <nri-resource-policy-topology-aware-xxxxx>
 
 To verify CPU assignment of containers, run the following script as root:
 ```
-sudo ./scripts/testing/get-cpu.sh
+sudo ./scripts/testing/get-cpu.sh 2>/dev/null
 ```
 
 # NRI Plugins
